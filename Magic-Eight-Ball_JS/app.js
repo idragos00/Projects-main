@@ -1,12 +1,12 @@
-let userName = "Jane";
+let userName = 'Jane';
 if (userName) {
   console.log(`Hello ${userName}`);
 } else {
   console.log("Hello!");
 }
 
-const userQuestion = "";
-if (userName) {
+const userQuestion = " ";
+if (userQuestion) {
 } else {
   console.log(`${userName} write your question`);
 }
