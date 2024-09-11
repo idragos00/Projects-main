@@ -20,6 +20,7 @@ h3 {
 }
 
 img {
+  padding-top: 50px;
   display: block;
   max-width: 100%;
   height: auto;
@@ -31,6 +32,7 @@ img {
   margin: 10px 200px;
   height: auto;
   background-color: #a3b18a;
+  padding-bottom: 30px;
 }
 
 #img-caption {
