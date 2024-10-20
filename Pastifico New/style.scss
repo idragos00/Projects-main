@@ -1,3 +1,4 @@
+// Test file
 * {
   padding: 0;
   margin: 0;
@@ -623,98 +624,6 @@
     .icons {
       display: flex;
       flex-flow: row-reverse wrap-reverse;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  /* Navbar adjustments */
-  .navbar {
-    ul {
-      flex-direction: column; // Stack nav items vertically
-      align-items: center;
-
-      li {
-        margin: 5px 0; // Space between items
-      }
-    }
-  }
-
-  /* Header adjustments */
-  .header {
-    h1 {
-      font-size: 2rem; // Adjust header size
-    }
-
-    button {
-      width: 100%; // Full width button on mobile
-    }
-  }
-
-  /* Adjust illustrations */
-  .ilustratii {
-    .row {
-      flex-direction: column; // Stack cards vertically
-      .col {
-        margin-bottom: 15px; // Space between illustrations
-      }
-    }
-  }
-
-  /* Popular Products */
-  .produse-populare {
-    .row {
-      flex-direction: column; // Stack products vertically
-      .col {
-        margin-bottom: 15px; // Space between products
-      }
-    }
-  }
-
-  /* Client Reviews */
-  .recenziile-clientilor {
-    .row {
-      flex-direction: column; // Stack reviews vertically
-      .col {
-        margin-bottom: 15px; // Space between reviews
-      }
-    }
-  }
-
-  /* Posts Section */
-  .postari {
-    .row {
-      flex-direction: column; // Stack posts vertically
-      .col {
-        margin-bottom: 20px; // Space between posts
-      }
-    }
-  }
-
-  /* Program Section */
-  .program {
-    .row {
-      flex-direction: column; // Stack program items vertically
-      .col {
-        margin-bottom: 15px; // Space between program items
-      }
-    }
-  }
-
-  /* Footer */
-  .footer {
-    .row {
-      flex-direction: column; // Stack footer items vertically
-      align-items: center;
-    }
-  }
-}
-
-/* Larger Screens */
-@media (min-width: 769px) {
-  .navbar {
-    ul {
-      justify-content: flex-end; // Align nav items to the right
     }
   }
 }
